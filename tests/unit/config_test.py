@@ -69,6 +69,7 @@ class VolumePathTest(unittest.TestCase):
         }, working_dir='.')
         self.assertEqual(d['volumes'], ['~/${NAME}:/data'])
 
+
 class MergePathMappingTest(object):
     def config_name(self):
         return ""
