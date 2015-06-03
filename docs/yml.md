@@ -155,6 +155,12 @@ volumes:
  - ~/configs:/etc/configs/:ro
 ```
 
+You can mount a relative path on the host, which will expand relative to
+the directory of the Compose configuration file being used.
+
+> Note: No path expansion will be done if you have also specified a
+> `volume_driver`.
+
 ### volumes_from
 
 Mount all of the volumes from another service or container.

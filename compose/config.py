@@ -183,7 +183,7 @@ def process_container_options(service_dict, working_dir=None):
 
     service_dict = service_dict.copy()
 
-    if 'volumes' in service_dict:
+    if 'volumes' in service_dict and service_dict.get('volume_driver') is None:
         service_dict['volumes'] = resolve_host_paths(service_dict['volumes'], working_dir=working_dir)
 
     if 'build' in service_dict:
