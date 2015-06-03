@@ -34,6 +34,7 @@ DOCKER_CONFIG_KEYS = [
     'stdin_open',
     'tty',
     'user',
+    'volume_driver',
     'volumes',
     'volumes_from',
     'working_dir',
