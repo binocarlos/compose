@@ -29,6 +29,7 @@ DOCKER_CONFIG_KEYS = [
     'pid',
     'ports',
     'privileged',
+    'publish_service',
     'restart',
     'security_opt',
     'stdin_open',
