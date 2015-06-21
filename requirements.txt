@@ -1,5 +1,5 @@
 PyYAML==3.10
-git+https://github.com/binocarlos/docker-py.git@3ae52cf04ced87578301f66630fa8ca92c6ba359#egg=docker-py
+git+https://github.com/binocarlos/docker-py.git@52b70627a731950ed8f2e848a59c7ff54277a5ff#egg=docker-py
 dockerpty==0.3.4
 docopt==0.6.1
 requests==2.6.1
